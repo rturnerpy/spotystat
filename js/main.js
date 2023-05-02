@@ -1,5 +1,5 @@
 const clientId = 'd696741353be48ccba524fa9815cae5e';
-const redirectUri = 'http://localhost/spoty-stats/';
+const redirectUri = 'https://janqueraltp.github.io/spotystat/';
 
 function authorizeSpotify() {
   const scope = 'user-top-read';
