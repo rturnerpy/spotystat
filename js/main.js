@@ -1,6 +1,6 @@
 const CLIENT_ID = 'd696741353be48ccba524fa9815cae5e';
 const CLIENT_SECRET = '642c7d52b57f44c898b4028da411ff77';
-const REDIRECT_URI = 'https://janqueraltp.github.io/spotystat/login.html';
+const REDIRECT_URI = 'https://janqueraltp.github.io/spotystat/';
 
 let accessToken;
 
