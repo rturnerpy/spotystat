@@ -1,0 +1,75 @@
+/* Estilos generales */
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  h1 {
+    color: #191414;
+    text-align: center;
+    font-size: 100px;
+    position: relative; /* Agregar posición relativa al h1 */
+  }
+  
+  h5 {
+    color: #191414;
+    position: absolute; /* Agregar posición absoluta al h5 */
+    bottom: 0; /* Colocar el h5 en la parte inferior del h1 */
+    left: 1; /* Colocar el h5 en la parte izquierda del h1 */
+    opacity: 70%;
+  }
+  
+  
+  h2 {
+    color: #191414;
+    text-align: center;
+  }
+  
+  button {
+    background-color: white;
+    color: #1DB954;
+    font-size: 50px;
+    padding: 8px 16px;
+    border: #1DB954 5px solid;
+    border-radius: 40px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #1DB954;
+    color: white;
+    font-size: 50px;
+    padding: 8px 16px;
+    border: #1DB954 5px solid;
+    border-radius: 40px;
+    cursor: pointer;
+  }
+  
+  /* Estilos específicos */
+  #stats-container {
+    margin-top: 32px;
+    padding: 16px;
+    border: 2px solid #1DB954;
+    font-size: 20px;
+    border-radius: 4px;
+  }
+  
+  #top-artist, #top-track {
+    font-weight: bold;
+    font-size: 30px;
+    color: #1DB954;
+  }
+  
+  
+  .text{
+    color: #191414;
+    position: absolute; /* Agregar posición absoluta al h5 */
+    bottom: 0; /* Colocar el h5 en la parte inferior del h1 */
+    right: 20; /* Colocar el h5 en la parte izquierda del h1 */
+    opacity: 70%;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+  }
+  
