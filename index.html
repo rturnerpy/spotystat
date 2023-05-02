@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Estadísticas de Spotify 📈</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://sdk.scdn.co/spotify-player.js"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <h1>Estadísticas de Spotify</h1>
+    <h5><a href="#">Made by Jan ❤️</a></h5>
+    <div>
+      <button onclick="authorizeSpotify()"><strong> 🎵 Autorizar Spotify </strong></button>
+    </div>
+    <div id="stats-container" style="display: none;">
+      <h2>Tus estadísticas de Spotify</h2>
+      <p>Artista más escuchado: <span id="top-artist"></span></p>
+      <p>Canción más escuchada: <span id="top-track"></span></p>
+    </div>
+  </body>
+</html>
