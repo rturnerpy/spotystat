@@ -18,6 +18,7 @@ h5 {
   bottom: 0; /* Colocar el h5 en la parte inferior del h1 */
   left: 1; /* Colocar el h5 en la parte izquierda del h1 */
   opacity: 70%;
+  text-decoration: none;
 }
 
 
